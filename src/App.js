@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import ParticlesBg from "particles-bg";
 
 
 
@@ -37,7 +38,7 @@ class App extends React.Component{
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"></link>
             <link href="https://fonts.googleapis.com/css?family=Baloo+Da+2&display=swap" rel="stylesheet"></link>
             <nav class="navbar navbar-light bg-light">
-              <a class="navbar-brand" href="#">COVID-19 SRILANKA TRACKER</a>
+              <h1 class="navbar navbar-expand-lg navbar-light bg-light" href="#">COVID-19 SriLanka Tracker</h1>
             </nav>
             <br/><br/>
             <h1>COVID-19 Sri Lanka Situation Report</h1>
@@ -72,22 +73,23 @@ class App extends React.Component{
               </div>
 
             </div>
+            <h1>Current status of the SriLanka hospitals</h1>
+
+            
             </div>
+            
            {
-          //  this.state.covidData.hospital_data.map((hospital) => (
-          
-          //   <h2>{hospital.hospital.name_si}</h2>
-           
-          //  ))
+         
            
            
            }
-
+          <ParticlesBg type="cobweb" bg={true}/>
           </div>
         )}
      
-     
+          
       </div>
+      
     );
   }
 }
