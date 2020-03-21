@@ -41,7 +41,7 @@ class App extends React.Component{
               <h1 class="navbar navbar-expand-lg navbar-light bg-light" href="#">COVID-19 SriLanka Tracker</h1>
             </nav>
             <br/><br/>
-            <h1>COVID-19 Sri Lanka Situation Report</h1>
+            <h1>COVID-19 ශ්‍රී ලංකා තත්ත්ව වාර්තාව</h1>
             <h5 class="text-muted">Last Update Time</h5>
             <b><h4>{this.state.covidData.update_date_time}</h4></b>
             <br/><br/><br/>
@@ -50,7 +50,7 @@ class App extends React.Component{
               <div class="card text-white bg-danger mb-3">
               <div class="card-body">
               <h1><span class="fa fa-ambulance"></span></h1>
-              <h1 class="card-title">Local New Cases</h1>
+              <h1 class="card-title">මුළු රෝගීන් සංඛ්‍යාව</h1>
                 <h1 class="card-text ">{this.state.covidData.local_total_cases}</h1>
                 
               </div>
@@ -58,7 +58,7 @@ class App extends React.Component{
               <div class="card text-white bg-secondary mb-3">
               <div class="card-body">
               <h1><span class="fa fa-hotel"></span></h1>
-              <h1 class="card-title">Deaths</h1>
+              <h1 class="card-title">මරණ සංඛ්‍යාව</h1>
                 <h1 class="card-text">{this.state.covidData.local_deaths}</h1>
                
               </div>
@@ -66,14 +66,14 @@ class App extends React.Component{
               <div class="card text-white bg-success mb-3">
               <div class="card-body">
               <h1><span class="fa fa-male"></span></h1>
-              <h1 class="card-title">Local recovered</h1>
+              <h1 class="card-title">සුවය ලැබූ සංඛ්‍යාව</h1>
                 <h1 class="card-text">{this.state.covidData.local_recovered}</h1>
                
               </div>
               </div>
 
             </div>
-            <h1>Current status of the SriLanka hospitals</h1>
+            <p>This might take several minutes to be updated,since Health Promotion Bureau is issuing verified data from reliable sources</p>
 
             
             </div>
