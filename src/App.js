@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+
+
 class App extends React.Component{
   constructor(){
     super();
@@ -28,17 +30,49 @@ class App extends React.Component{
   render(){
     return (
       <div className="App">
+        
         {(this.state.covidData != null ) && (
           <div>
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"></link>
+            <link href="https://fonts.googleapis.com/css?family=Baloo+Da+2&display=swap" rel="stylesheet"></link>
             <nav class="navbar navbar-light bg-light">
               <a class="navbar-brand" href="#">COVID-19 SRILANKA TRACKER</a>
             </nav>
-            <h1>COVID-19 SRILANKA TRACKER </h1>
-            
-           <h1>Local New Cases <span class="badge badge-secondary">{this.state.covidData.local_new_cases}</span> </h1>
-           <h1>Local Total Cases <span class="badge badge-secondary"> {this.state.covidData.local_total_cases}</span></h1>
-           <h1>Local recovered <span class="badge badge-secondary"> {this.state.covidData.local_recovered}</span></h1>
+            <br/><br/>
+            <h1>COVID-19 Sri Lanka Situation Report</h1>
+            <h5 class="text-muted">Last Update Time</h5>
+            <b><h4>{this.state.covidData.update_date_time}</h4></b>
+            <br/><br/><br/>
+            <div class="container pt-3 " >
+            <div class="card-deck">
+              <div class="card text-white bg-danger mb-3">
+              <div class="card-body">
+              <h1><span class="fa fa-ambulance"></span></h1>
+              <h1 class="card-title">Local New Cases</h1>
+                <h1 class="card-text ">{this.state.covidData.local_total_cases}</h1>
+                
+              </div>
+              </div>
+              <div class="card text-white bg-secondary mb-3">
+              <div class="card-body">
+              <h1><span class="fa fa-hotel"></span></h1>
+              <h1 class="card-title">Deaths</h1>
+                <h1 class="card-text">{this.state.covidData.local_deaths}</h1>
+               
+              </div>
+              </div>
+              <div class="card text-white bg-success mb-3">
+              <div class="card-body">
+              <h1><span class="fa fa-male"></span></h1>
+              <h1 class="card-title">Local recovered</h1>
+                <h1 class="card-text">{this.state.covidData.local_recovered}</h1>
+               
+              </div>
+              </div>
+
+            </div>
+            </div>
            {
           //  this.state.covidData.hospital_data.map((hospital) => (
           
@@ -52,7 +86,7 @@ class App extends React.Component{
           </div>
         )}
      
-        
+     
       </div>
     );
   }
