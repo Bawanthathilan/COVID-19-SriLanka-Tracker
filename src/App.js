@@ -74,6 +74,10 @@ class App extends React.Component{
 
             </div>
             <p>This might take several minutes to be updated,since Health Promotion Bureau is issuing verified data from reliable sources</p>
+            <br/><br/>
+            <footer>
+            Made with ❤ by Bawantha Thilan | Powered by hpb.health.gov.lk
+            </footer>
 
             
             </div>
