@@ -39,6 +39,11 @@ class App extends React.Component{
             <link href="https://fonts.googleapis.com/css?family=Baloo+Da+2&display=swap" rel="stylesheet"></link>
             <nav class="navbar navbar-light bg-light">
               <h1 class="navbar navbar-expand-lg navbar-light bg-light" href="#">COVID-19 SriLanka Tracker</h1>
+              <form class="form-inline my-2 my-lg-0">
+              
+              
+              <a href="https://github.com/Bawanthathilan" ><h1><span class="fa fa-github"></span></h1></a>
+               </form>
             </nav>
             <br/><br/>
             <h1>COVID-19 ශ්‍රී ලංකා තත්ත්ව වාර්තාව</h1>
