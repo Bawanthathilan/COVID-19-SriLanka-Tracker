@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import ParticlesBg from "particles-bg";
 
@@ -56,7 +55,7 @@ class App extends React.Component{
               <div class="card-body">
               <h1><span class="fa fa-ambulance"></span></h1>
               <h1 class="card-title">මුළු රෝගීන් සංඛ්‍යාව</h1>
-                <h1 class="card-text ">{this.state.covidData.local_total_cases}</h1>
+                <h1 class="card-text "><h1 class="badge badge-light">{this.state.covidData.local_total_cases}</h1></h1>
                 
               </div>
               </div>
@@ -64,7 +63,7 @@ class App extends React.Component{
               <div class="card-body">
               <h1><span class="fa fa-hotel"></span></h1>
               <h1 class="card-title">මරණ සංඛ්‍යාව</h1>
-                <h1 class="card-text">{this.state.covidData.local_deaths}</h1>
+                <h1 class="card-text"><h1 class="badge badge-light">{this.state.covidData.local_deaths}</h1></h1>
                
               </div>
               </div>
@@ -72,10 +71,20 @@ class App extends React.Component{
               <div class="card-body">
               <h1><span class="fa fa-male"></span></h1>
               <h1 class="card-title">සුවය ලැබූ සංඛ්‍යාව</h1>
-                <h1 class="card-text">{this.state.covidData.local_recovered}</h1>
+                <h1 class="card-text"><h1 class="badge badge-light">{this.state.covidData.local_recovered}</h1></h1>
                
               </div>
               </div>
+              <div class="card text-white bg-dark mb-3">
+              <div class="card-body">
+              <h1><span class="fa fa-wheelchair"></span></h1>
+              <h2 class="card-title">රෝහල් ගත පුද්ගලයින් සංඛ්‍යාව</h2>
+              
+                <h1 class="card-text"><h1 class="badge badge-light">{this.state.covidData.local_total_number_of_individuals_in_hospitals}</h1></h1>
+               
+              </div>
+              </div>
+              
 
             </div>
             <p>This might take several minutes to be updated,since Health Promotion Bureau is issuing verified data from reliable sources</p>
