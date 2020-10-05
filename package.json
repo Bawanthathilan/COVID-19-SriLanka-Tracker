@@ -10,7 +10,7 @@
     "particles-bg": "^2.4.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.0"
+    "react-scripts": "^3.4.3"
   },
   "scripts": {
     "start": "react-scripts start",
