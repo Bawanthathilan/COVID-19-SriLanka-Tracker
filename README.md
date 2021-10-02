@@ -13,5 +13,5 @@ The page will reload if you make edits.\
 
 You will able see any lint errors in the console.
 
-By using this application, users can get to know more descriptive details
+By using this application, users will be able to know descriptive details
 
