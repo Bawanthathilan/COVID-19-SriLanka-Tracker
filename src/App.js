@@ -41,14 +41,15 @@ class App extends React.Component {
               href="https://fonts.googleapis.com/css?family=Baloo+Da+2&display=swap"
               rel="stylesheet"
             ></link>
-            <nav class="navbar navbar-light bg-light">
+
+            <nav class="row navbar navbar-light bg-light navbar ">
               <h1
-                class="navbar navbar-expand-lg navbar-light bg-light"
+                class="navbar navbar-expand-lg navbar-light bg-light  col-sm-10 "
                 href="#"
               >
                 COVID-19 SriLanka Tracker
               </h1>
-              <form class="form-inline my-2 my-lg-0">
+              <form class=" my-2 my-lg-0  col-sm-2 ">
                 <a href="https://github.com/Bawanthathilan">
                   <h1>
                     <span class="fa fa-github"></span>
@@ -56,6 +57,7 @@ class App extends React.Component {
                 </a>
               </form>
             </nav>
+
             <br />
             <br />
             <h1>COVID-19 ශ්‍රී ලංකා තත්ත්ව වාර්තාව</h1>
