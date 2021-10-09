@@ -12,9 +12,15 @@ a {
   font-family: "Baloo Da 2", cursive;
 }
 
+
+h2,
+a {
+  font-family: "Baloo Da 2", cursive;
+}
+
 p {
-  margin-top: 3px;
-  margin-bottom: 3px;
+  margin-top: 4px;
+  margin-bottom: 4px;
   font-family: "Baloo Da 2", cursive;
 }
 
