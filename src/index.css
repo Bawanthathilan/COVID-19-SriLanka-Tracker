@@ -9,19 +9,19 @@ body {
 
 h1,
 a {
-  font-family: "Baloo Da 2", cursive;
+  font-family: "Helvetica", cursive;
 }
 
 
 h2,
 a {
-  font-family: "Baloo Da 2", cursive;
+  font-family: "Helvetica", cursive;
 }
 
 p {
   margin-top: 4px;
   margin-bottom: 4px;
-  font-family: "Baloo Da 2", cursive;
+  font-family: "Helvetica", cursive;
 }
 
 code {
