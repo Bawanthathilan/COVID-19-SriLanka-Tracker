@@ -80,3 +80,9 @@ span.b {
   border: 1px solid blue;
   background-color: yellow;
 }
+
+img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
