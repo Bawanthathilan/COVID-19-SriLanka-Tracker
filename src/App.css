@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #69dafb;
+  color: #d10683;
 }
 
 @keyframes App-logo-spin {
@@ -38,7 +38,13 @@
 }
 
 .h4{
-  color: #272c34;
+  color: #04265c;
+  height: 0%;
+  margin-top: 30%;
+}
+
+.h3{
+  color: #186ffc;
   height: 0%;
   margin-top: 30%;
 }
@@ -48,3 +54,4 @@
   transition: 0.3s;
   width: 40%;
 }
+
