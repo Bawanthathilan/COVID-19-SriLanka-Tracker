@@ -62,3 +62,12 @@
   height: 100px;
   margin: 30px;
 }
+
+span.b {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;
+  background-color: yellow;
+}
