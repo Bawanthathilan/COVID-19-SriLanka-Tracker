@@ -49,37 +49,8 @@
   width: 40%;
 }
 
-.button{
-  color: #e09112;
-  height: 10%;
-  margin-top: 30%;
-}
-
-.animation {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  animation-name: example;
-  animation-duration: 4s;
-}
-
-.card{
-  width: 100px;
-  height: 100px;
-}
-
-.container{
-  background-color: yellow;
-  width: 100px;
-  height: 100px;
-  padding-left: 10%;
-  padding-top: 10%;
-}
-
 .hirusha{
-  color: #0664fc;
-  height: 10%;
-  width: 10%;
-  margin-top: 30%;
-  margin-left: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
 }
