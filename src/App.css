@@ -49,6 +49,23 @@
   margin-top: 30%;
 }
 
+.h3{
+  color: #186ffc;
+  height: 0%;
+  margin-top: 30%;
+}
+.h1{
+  color: #dafc18;
+  height: 0%;
+  margin-top: 30%;
+}
+
+.updatecard{
+  box-shadow: 0 4px 8px 0 rgba(221, 6, 6, 0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
 .newCard{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
