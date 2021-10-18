@@ -37,13 +37,14 @@
   }
 }
 
-.h4{
+.h4 {
   color: #272c34;
   height: 0%;
   margin-top: 30%;
 }
 
-.newCard{
+
+ .newCard{
   box-shadow: 0 3px 9px 0 rgba(0,0,0,0.3);
   transition: 0.4s;
   width: 40%;
@@ -64,3 +65,4 @@
 .newlink{
   color:#625a7d;
 }
+
