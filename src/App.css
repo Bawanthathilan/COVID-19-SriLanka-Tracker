@@ -37,15 +37,32 @@
   }
 }
 
-.h4{
-  color: #272c34;
+#div1 {
+  position: absolute;
+  left: 50px;
+  width: calc(100% - 100px);
+  border: 1px solid black;
+  background-color: yellow;
+  padding: 5px;
+}
+
+
+.h4 {
+  color: #14171b;
   height: 0%;
   margin-top: 30%;
 }
+.h2{
+  color: aqua;
+  font-size: larger;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 300;
+}
 
-.newCard{
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
+
+ .newCard{
+  box-shadow: 0 3px 9px 0 rgba(0,0,0,0.3);
+  transition: 0.4s;
   width: 40%;
 }
 
@@ -63,3 +80,5 @@
   width: max-content;
   background-color: antiquewhite;
 }
+
+
