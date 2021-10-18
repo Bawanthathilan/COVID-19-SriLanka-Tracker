@@ -44,7 +44,23 @@
 }
 
 .newCard{
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
+  box-shadow: 0 3px 9px 0 rgba(0,0,0,0.3);
+  transition: 0.4s;
   width: 40%;
+}
+
+.newcss{
+  margin-bottom: 30%;
+  margin-top: 20%;
+  color: #ffff;
+}
+
+.h5{
+  color: #695a7d;
+  height: 0%;
+  margin-bottom: 30%;
+}
+
+.newlink{
+  color:#625a7d;
 }
