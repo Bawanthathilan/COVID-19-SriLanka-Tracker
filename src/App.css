@@ -48,3 +48,17 @@
   transition: 0.3s;
   width: 40%;
 }
+
+.button{
+  color: #e09112;
+  height: 10%;
+  margin-top: 30%;
+}
+
+.animation {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
