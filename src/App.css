@@ -62,3 +62,8 @@
   animation-name: example;
   animation-duration: 4s;
 }
+
+.card{
+  width: 100px;
+  height: 100px;
+}
