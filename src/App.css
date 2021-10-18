@@ -38,11 +38,9 @@
 }
 
 .h4{
-  color: #0664fc;
-  height: 10%;
-  width: 10%;
+  color: #272c34;
+  height: 0%;
   margin-top: 30%;
-  margin-left: 10%;
 }
 
 .newCard{
@@ -76,4 +74,12 @@
   height: 100px;
   padding-left: 10%;
   padding-top: 10%;
+}
+
+.hirusha{
+  color: #0664fc;
+  height: 10%;
+  width: 10%;
+  margin-top: 30%;
+  margin-left: 10%;
 }
