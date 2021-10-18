@@ -86,3 +86,10 @@ img {
   height: 300px;
   object-fit: cover;
 }
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
