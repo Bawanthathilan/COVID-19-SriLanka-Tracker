@@ -83,3 +83,11 @@
   margin-top: 30%;
   margin-left: 10%;
 }
+
+.featurehirusha{
+  color: #fc6806;
+  height: 10%;
+  width: 10%;
+  margin: auto;
+  font-size: calc(10px + 2vmin);
+}
