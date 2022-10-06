@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #272c34;
+  background-color: #23282f;
   min-height: 105vh;
   display: flex;
   flex-direction: column;
@@ -48,7 +48,7 @@
 
 
 .h4 {
-  color: #14171b;
+  color: #121518;
   height: 0%;
   margin-top: 30%;
 }
@@ -70,7 +70,7 @@
 #newsheder{
   padding: 60px;
   text-align: center;
-  background: #1abc9c;
+  background: #31c3a6;
   color: white;
   font-size: 30px; 
 }
